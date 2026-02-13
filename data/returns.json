@@ -1,0 +1,20 @@
+[
+  {
+    "returnId": "RET-001",
+    "orderId": "ORD-001",
+    "reason": "Wrong size",
+    "status": "Approved",
+    "trackingId": "TRK-XYZ-123456",
+    "requestDate": "2025-02-05",
+    "refundAmount": 129.99
+  },
+  {
+    "returnId": "RET-002",
+    "orderId": "ORD-003",
+    "reason": "Not as expected",
+    "status": "Processing",
+    "trackingId": "TRK-ABC-789012",
+    "requestDate": "2025-02-08",
+    "refundAmount": 49.99
+  }
+]

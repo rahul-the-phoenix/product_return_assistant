@@ -1,0 +1,62 @@
+[
+  {
+    "orderId": "ORD-001",
+    "product": "Nike Air Max Sneakers",
+    "category": "Clothing",
+    "price": 129.99,
+    "purchaseDate": "2025-01-15",
+    "deliveryDate": "2025-01-20",
+    "returnHistory": [],
+    "status": "delivered"
+  },
+  {
+    "orderId": "ORD-002",
+    "product": "iPhone 15 Pro",
+    "category": "Electronics",
+    "price": 999.99,
+    "purchaseDate": "2025-02-01",
+    "deliveryDate": "2025-02-03",
+    "returnHistory": [],
+    "status": "delivered"
+  },
+  {
+    "orderId": "ORD-003",
+    "product": "Summer Dress",
+    "category": "Clothing",
+    "price": 49.99,
+    "purchaseDate": "2025-01-05",
+    "deliveryDate": "2025-01-10",
+    "returnHistory": [],
+    "status": "delivered"
+  },
+  {
+    "orderId": "ORD-004",
+    "product": "Laptop Backpack",
+    "category": "Accessories",
+    "price": 79.99,
+    "purchaseDate": "2025-02-05",
+    "deliveryDate": "2025-02-08",
+    "returnHistory": [],
+    "status": "delivered"
+  },
+  {
+    "orderId": "ORD-005",
+    "product": "Clearance Winter Jacket",
+    "category": "Clearance",
+    "price": 39.99,
+    "purchaseDate": "2025-01-20",
+    "deliveryDate": "2025-01-25",
+    "returnHistory": [],
+    "status": "delivered"
+  },
+  {
+    "orderId": "ORD-006",
+    "product": "Sony Headphones",
+    "category": "Electronics",
+    "price": 249.99,
+    "purchaseDate": "2025-02-08",
+    "deliveryDate": "2025-02-09",
+    "returnHistory": [],
+    "status": "delivered"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "policies": {
+    "Clothing": {
+      "returnWindow": 30,
+      "fullPolicy": "Clothing items can be returned within 30 days of delivery. Items must be unworn, unwashed, and have all original tags attached. We offer free returns for clothing purchases. Refunds will be processed within 5-7 business days after we receive your return.",
+      "compressedPolicy": "30-day return. Unworn, tags attached. Free returns. 5-7 day refund."
+    },
+    "Electronics": {
+      "returnWindow": 7,
+      "fullPolicy": "Electronic items must be returned within 7 days of delivery due to rapid technology changes. All items must be in original packaging with all accessories, manuals, and warranty cards. Returns must be in like-new condition. A 15% restocking fee may apply for opened electronics.",
+      "compressedPolicy": "7-day return. Original packaging required. 15% restocking fee."
+    },
+    "Accessories": {
+      "returnWindow": 30,
+      "fullPolicy": "Accessories including bags, wallets, and similar items can be returned within 30 days. Items must be unused and in original condition with tags attached. Free return shipping is provided for all accessory returns.",
+      "compressedPolicy": "30-day return. Unused, tags on. Free shipping."
+    },
+    "Clearance": {
+      "returnWindow": 0,
+      "fullPolicy": "All clearance items are final sale and cannot be returned or exchanged. Clearance items are sold as-is with significant discounts. Please review your purchase carefully before completing checkout as these sales are non-refundable.",
+      "compressedPolicy": "FINAL SALE. No returns or exchanges."
+    }
+  },
+  "general": {
+    "refundMethod": "Original payment method",
+    "processingTime": "5-7 business days",
+    "shippingCost": "Free for most items",
+    "exchangePolicy": "Free exchanges available for size/color"
+  }
+}

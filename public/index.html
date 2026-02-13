@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Returns Assistant - Smart E-commerce Returns Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🤖 AI Returns Assistant</h1>
+            <p class="subtitle">Smart E-commerce Returns Bot powered by AI</p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Panel - Chatbot -->
+            <div class="chat-section">
+                <div class="card">
+                    <h2>💬 Chat with AI Assistant</h2>
+                    <div id="chatMessages" class="chat-messages"></div>
+                    <div class="chat-input-container">
+                        <input 
+                            type="text" 
+                            id="chatInput" 
+                            class="chat-input" 
+                            placeholder="Ask me about returns, refunds, or exchanges..."
+                            autocomplete="off"
+                        >
+                        <button id="sendBtn" class="btn btn-primary">Send</button>
+                    </div>
+                    <div class="quick-actions">
+                        <p class="quick-label">Quick Actions:</p>
+                        <button class="btn-small" onclick="quickMessage('Can I return my order ORD-001?')">Check Return</button>
+                        <button class="btn-small" onclick="quickMessage('Generate label for ORD-002')">Get Label</button>
+                        <button class="btn-small" onclick="quickMessage('Refund status for ORD-001')">Check Status</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel - Analytics & Info -->
+            <div class="info-section">
+                <!-- Analytics Dashboard -->
+                <div class="card">
+                    <h2>📊 Return Analytics</h2>
+                    <div id="analytics" class="analytics-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="totalReturns">--</div>
+                            <div class="stat-label">Total Returns</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="returnRate">--</div>
+                            <div class="stat-label">Return Rate</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="topReason">--</div>
+                            <div class="stat-label">Top Reason</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Metrics -->
+                <div class="card">
+                    <h2>⚡ Performance Metrics</h2>
+                    <div class="metrics">
+                        <div class="metric-item">
+                            <span class="metric-icon">🚀</span>
+                            <div>
+                                <div class="metric-value">70% Faster</div>
+                                <div class="metric-desc">Returns Processing</div>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">🛡️</span>
+                            <div>
+                                <div class="metric-value">30% Reduction</div>
+                                <div class="metric-desc">Fraud Detection</div>
+                            </div>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-icon">😊</span>
+                            <div>
+                                <div class="metric-value">+25%</div>
+                                <div class="metric-desc">Customer Satisfaction</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Lookup -->
+                <div class="card">
+                    <h2>🔍 Order Lookup</h2>
+                    <input 
+                        type="text" 
+                        id="orderLookup" 
+                        class="input-field" 
+                        placeholder="Enter Order ID (e.g., ORD-001)"
+                    >
+                    <button id="lookupBtn" class="btn btn-secondary">Look Up Order</button>
+                    <div id="orderDetails" class="order-details"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>🏆 Intel Hackathon: Gen AI for GenZ | Powered by ScaleDown API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
