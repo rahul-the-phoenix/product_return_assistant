@@ -253,65 +253,6 @@ npm start
 
 ---
 
-## 🎤 Hackathon Demo Script
-
-### Introduction (30 seconds)
-"Hi, I'm presenting the AI Returns Assistant - a smart chatbot that revolutionizes e-commerce returns using AI and the ScaleDown API."
-
-### Problem Statement (20 seconds)
-"Returns are slow, expensive, and frustrating. Customers face complex policies, and businesses struggle with fraud detection."
-
-### Live Demo (2 minutes)
-
-**1. Show Chatbot (45 seconds)**
-- Ask: "Can I return my order ORD-001?"
-- Bot checks eligibility and shows compressed policy
-- Generate a return label
-- Show tracking ID
-
-**2. Show Analytics (30 seconds)**
-- Display return rate, top reasons
-- Highlight performance metrics (70% faster, 30% fraud reduction)
-
-**3. Demonstrate Fraud Detection (30 seconds)**
-- Explain how system flags suspicious patterns
-- Show warning message for high-frequency returners
-
-**4. ScaleDown Integration (15 seconds)**
-- Show before/after policy compression
-- Explain 60% text reduction benefit
-
-### Impact & Metrics (30 seconds)
-- "Our system processes returns 70% faster"
-- "Fraud detection reduces losses by 30%"
-- "Customer satisfaction increased by 25%"
-- "Powered by ScaleDown API for efficient data handling"
-
-### Closing (20 seconds)
-"This MVP demonstrates how AI can transform returns management. Thank you!"
-
----
-
-## 📸 Screenshots
-
-### Main Chat Interface
-```
-[Chat interface showing conversation with AI bot]
-```
-
-### Analytics Dashboard
-```
-[Dashboard showing return statistics and metrics]
-```
-
-### Order Lookup
-```
-[Order details display with eligibility status]
-```
-
-*Note: Add actual screenshots after running the application*
-
----
 
 ## 📈 Performance Metrics (Simulated)
 
@@ -373,7 +314,7 @@ MIT License - feel free to use this project for learning or building upon it!
 
 ## 👥 Team
 
-**Your Name** - Full Stack Developer & AI Enthusiast
+**Rahul Manna** - Full Stack Developer & AI Enthusiast
 
 *Built for Intel GenZ Hackathon*
 
@@ -390,23 +331,9 @@ MIT License - feel free to use this project for learning or building upon it!
 ## 📞 Contact
 
 For questions or feedback:
-- Email: your.email@example.com
-- GitHub: @yourusername
-- LinkedIn: your-linkedin-profile
-
----
-
-## 🏆 Hackathon Submission Checklist
-
-- [x] Working MVP
-- [x] Clean, documented code
-- [x] README with setup instructions
-- [x] Demo script prepared
-- [x] Performance metrics displayed
-- [x] ScaleDown API integration
-- [x] Fraud detection feature
-- [x] Analytics dashboard
-- [x] GitHub repository ready
+- Email: rahulmanna3892@gmail.com
+- GitHub: @rahul-the-phoenix
+- LinkedIn: www.linkedin.com/in/rahul-manna-98980039b
 
 ---
 
